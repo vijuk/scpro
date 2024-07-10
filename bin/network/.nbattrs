@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="AVReceive2.java">
+        <attr name="class_dependency_javax.media.rtp.ReceiveStreamListener" stringvalue="AVReceive2"/>
+        <attr name="class_dependency_javax.media.ControllerListener" stringvalue="AVReceive2"/>
+        <attr name="class_dependency_java.awt.Frame" stringvalue="AVReceive2.PlayerWindow"/>
+        <attr name="class_dependency_javax.media.rtp.SessionListener" stringvalue="AVReceive2"/>
+        <attr name="class_dependency_java.awt.Panel" stringvalue="AVReceive2.PlayerPanel"/>
+    </fileobject>
+    <fileobject name="AVTransmit2.java">
+        <attr name="class_dependency_javax.media.ControllerListener" stringvalue="AVTransmit2.StateListener"/>
+    </fileobject>
+</attributes>

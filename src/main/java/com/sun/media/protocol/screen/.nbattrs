@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="Image1SourceStream.java">
+        <attr name="class_dependency_java.lang.Runnable" stringvalue="Image1SourceStream"/>
+        <attr name="class_dependency_javax.media.protocol.PushBufferStream" stringvalue="Image1SourceStream"/>
+    </fileobject>
+    <fileobject name="DataSource.java">
+        <attr name="class_dependency_javax.media.protocol.PushBufferDataSource" stringvalue="DataSource"/>
+    </fileobject>
+    <fileobject name="LiveStream.java">
+        <attr name="class_dependency_java.lang.Runnable" stringvalue="LiveStream"/>
+        <attr name="class_dependency_javax.media.protocol.PushBufferStream" stringvalue="LiveStream"/>
+    </fileobject>
+</attributes>

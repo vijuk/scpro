@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="serverProgram.java">
+        <attr name="class_dependency_java.lang.Thread" stringvalue="serverThread;ServerWindow"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="ServerWindow"/>
+    </fileobject>
+    <fileobject name="AudioTransmit.java">
+        <attr name="class_dependency_javax.media.ControllerListener" stringvalue="VideoTransmit.StateListener"/>
+    </fileobject>
+    <fileobject name="captureAudio.java">
+        <attr name="class_dependency_javax.media.ControllerListener" stringvalue="audioDevice"/>
+        <attr name="class_dependency_javax.media.datasink.DataSinkListener" stringvalue="audioDevice"/>
+    </fileobject>
+    <fileobject name="t.bat">
+        <attr name="org.netbeans.modules.text.IsTextFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="recv.bat">
+        <attr name="org.netbeans.modules.text.IsTextFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="send.bat">
+        <attr name="org.netbeans.modules.text.IsTextFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="project.java">
+        <attr name="class_dependency_javax.media.ControllerListener" stringvalue="AVReceive2;AVTransmit2.StateListener"/>
+        <attr name="class_dependency_java.awt.Frame" stringvalue="AVReceive2.PlayerWindow"/>
+        <attr name="class_dependency_javax.media.rtp.SessionListener" stringvalue="AVReceive2"/>
+        <attr name="class_dependency_javax.media.rtp.ReceiveStreamListener" stringvalue="AVReceive2"/>
+        <attr name="class_dependency_java.lang.Thread" stringvalue="loginWindow;SelectMethod;InvokeServerWindow;Transmission;VoiceWindow;Communication;ServerVoice;ServerWindow"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="VoiceWindow;Communication;loginWindow;ServerWindow;SelectMethod"/>
+        <attr name="class_dependency_java.awt.Panel" stringvalue="AVReceive2.PlayerPanel"/>
+    </fileobject>
+    <fileobject name="send2.bat">
+        <attr name="org.netbeans.modules.text.IsTextFile" boolvalue="true"/>
+    </fileobject>
+</attributes>

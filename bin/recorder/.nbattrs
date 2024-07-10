@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="ImageSourceStream.java">
+        <attr name="class_dependency_java.lang.Runnable" stringvalue="ImageSourceStream"/>
+        <attr name="class_dependency_javax.media.protocol.PullBufferStream" stringvalue="ImageSourceStream"/>
+        <attr name="class_dependency_javax.media.protocol.PushBufferStream" stringvalue="ImageSourceStream"/>
+    </fileobject>
+    <fileobject name="Recorder.java">
+        <attr name="class_dependency_javax.media.ControllerListener" stringvalue="Recorder"/>
+        <attr name="class_dependency_java.lang.Runnable" stringvalue="Recorder"/>
+        <attr name="class_dependency_javax.media.datasink.DataSinkListener" stringvalue="Recorder"/>
+    </fileobject>
+    <fileobject name="ImageDataSource.java">
+        <attr name="class_dependency_javax.media.protocol.PullBufferDataSource" stringvalue="ImageDataSource"/>
+    </fileobject>
+</attributes>
